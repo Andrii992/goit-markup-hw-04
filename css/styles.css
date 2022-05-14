@@ -439,7 +439,6 @@ img {
 }
 .join-section {
     margin-left: 70px;
-    align-self: baseline;
 }
 .join {
     margin-bottom: 20px;
@@ -502,10 +501,10 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-.clients-link:hover .clients-ikon,
+/* .clients-link:hover .clients-ikon,
 .clients-link:focus .clients-ikon {
     fill: var(--accent-color)
-}
+} */
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--accent-color);
