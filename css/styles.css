@@ -50,7 +50,7 @@ img {
     color: #FFFFFF;
     text-decoration: none;
     margin-bottom: 20px;
-    display: inline-block;
+    display: block;
     }
 .web {
     color: var(--accent-color);
@@ -481,7 +481,6 @@ img {
 }
 .container-footer {
     display: flex;
-    justify-content: flex-start;
     align-items: baseline;
 }
 .clients-list {
