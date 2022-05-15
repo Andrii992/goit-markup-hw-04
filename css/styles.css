@@ -145,6 +145,10 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-text-color);
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
 }
 .button:hover,
 .button:focus{
@@ -167,6 +171,7 @@ img {
 .paragraph {
     line-height: 1.87;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 .headlines-benefits {
     font-size: 14px;
@@ -249,10 +254,12 @@ img {
 }
 .names-position {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .position {
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 /* ДЗ 3 */
 .container-head {
@@ -385,10 +392,14 @@ img {
 .projects .project:nth-child(-n+6) {
     margin-bottom: 30px;
 }
-.projects .project:hover,
-.projects .project:focus {
+.project-link:hover,
+.project-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+}
+.project > .project-link {
+    display: block;
+    text-decoration: none;
 }
 
 .project .headlines {
@@ -453,12 +464,7 @@ img {
 .socials-ikon-team:focus {
     fill: #FFFFFF;
 }
-.team-ikons {
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-}
+
 
 
 
@@ -471,9 +477,9 @@ img {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 .benefit-ikon {
     background-size: cover;
@@ -500,10 +506,10 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-/* .clients-link:hover .clients-ikon,
+.clients-link:hover .clients-ikon,
 .clients-link:focus .clients-ikon {
     fill: var(--accent-color)
-} */
+}
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--accent-color);
